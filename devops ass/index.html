@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Team Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="person1.html">Athirsha</a>
+        <a href="person2.html">Lefana Rose</a>
+        <a href="person3.html">Madhumitha</a>
+        <a href="person4.html">Susi Melinda</a>
+    </nav>
+
+    <button onclick="toggleDarkMode()" class="toggle-btn">🌙 Toggle Dark Mode</button>
+
+    <main>
+        <section class="intro">
+            <h1>👋 Welcome To Our Portfolio</h1>
+            <p>
+                We’re a passionate group of developers and designers who love building clean, creative, and
+                user-friendly digital experiences.
+                Each of us brings something unique to the table—and together, we make magic happen!
+            </p>
+        </section>
+
+        <div class="card-container">
+            <div class="card fade-in">
+                <h2>Athirsha</h2>
+                <p>Frontend Developer</p>
+                <a href="person1.html" class="view-profile">View Profile</a>
+            </div>
+
+
+            <div class="card fade-in">
+                <h2>Lefana Rose</h2>
+                <p>Frontend Developer</p>
+                <a href="person2.html" class="view-profile">View Profile</a>
+            </div>
+
+
+            <div class="card fade-in">
+                <h2>Madhumitha</h2>
+                <p>UI/UX Developer</p>
+                <a href="person3.html" class="view-profile">View Profile</a>
+            </div>
+
+            <div class="card fade-in">
+                <h2>Susi Melinda</h2>
+                <p>Full Stack Developer</p>
+                <a href="person4.html" class="view-profile">View Profile</a>
+            </div>
+
+        </div>
+    </main>
+
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+    <footer>
+        <p>© 2025 Dream Team Portfolio | Built with ❤️ by Athirsha, Lefana, Madhumitha & Susi</p>
+    </footer>
+
+</body>
+
+</html>
